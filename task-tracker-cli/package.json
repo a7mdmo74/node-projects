@@ -1,0 +1,26 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A CLI task tracker application",
+  "main": "dist/index.js",
+  "bin": {
+    "task-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "task",
+    "tracker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "typescript": "^5.9.3"
+  }
+}

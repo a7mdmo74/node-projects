@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Buy groceries",
+      "status": "todo",
+      "createdAt": "2026-01-22T11:57:24.437Z",
+      "updatedAt": "2026-01-22T11:57:24.437Z"
+    },
+    {
+      "id": 2,
+      "description": "Write documentation",
+      "status": "todo",
+      "createdAt": "2026-01-22T11:57:41.577Z",
+      "updatedAt": "2026-01-22T11:57:41.577Z"
+    }
+  ],
+  "nextId": 3
+}
