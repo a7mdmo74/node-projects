@@ -218,7 +218,6 @@ Full-Stack Developer
 
 - 💼 LinkedIn: [ahmed-mohamed-developer](https://www.linkedin.com/in/ahmed-mohamed-developer/)
 - 📧 Email: a7mdmo74@gmail.com
-- 🐙 GitHub: [Your GitHub Username]
 
 *Open to collaboration and feedback!*
 
