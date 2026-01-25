@@ -1,40 +1,68 @@
+```md
 # Backend Projects - Node.js Implementation
 
-A collection of backend projects built with Node.js and TypeScript, following the [roadmap.sh backend project roadmap](https://roadmap.sh/backend/projects).
+A collection of backend projects built with Node.js and TypeScript, following the
+[roadmap.sh backend project roadmap](https://roadmap.sh/backend/projects).
+
+---
 
 ## 📚 Projects Overview
 
 ### ✅ Completed Projects
 
 #### 1. Task Tracker CLI
+
 A command-line task management application.
 
-**Tech Stack:** TypeScript, Node.js  
+**Tech Stack:** TypeScript, Node.js
 **Features:**
+
 - Add, update, delete tasks
 - Mark tasks with statuses (todo, in-progress, done)
 - List and filter tasks
 - JSON-based persistence
 
-**Status:** ✅ Completed  
-**Folder:** `01-task-tracker-cli/`  
+**Status:** ✅ Completed
+**Folder:** `01-task-tracker-cli/`
 **Date Completed:** January 2026
 
 ---
 
 #### 2. GitHub User Activity
+
 Fetch and display GitHub user activity via API.
 
-**Tech Stack:** TypeScript, Node.js, GitHub API, Native Fetch  
+**Tech Stack:** TypeScript, Node.js, GitHub API, Native Fetch
 **Features:**
+
 - Fetch recent activity for any GitHub user
 - Display formatted activity in terminal
 - Store activity data locally
 - Filter activities by type (push, pull request, commit)
 - Graceful error handling for invalid users and API limits
 
-**Status:** ✅ Completed  
-**Folder:** `02-github-user-activity/`  
+**Status:** ✅ Completed
+**Folder:** `02-github-user-activity/`
+**Date Completed:** January 2026
+
+---
+
+#### 3. Expense Tracker CLI
+
+A command-line application to track and manage personal expenses.
+
+**Tech Stack:** TypeScript, Node.js, Commander.js, File System
+**Features:**
+
+- Add, update, delete expenses
+- List all expenses
+- View total expense summary
+- View monthly expense summary (current year)
+- JSON-based persistence
+- Input validation and error handling
+
+**Status:** ✅ Completed
+**Folder:** `03-expense-tracker/`
 **Date Completed:** January 2026
 
 ---
@@ -42,51 +70,59 @@ Fetch and display GitHub user activity via API.
 ### 🚧 Upcoming Projects
 
 #### 3. Expense Tracker
+
 Track and manage personal expenses.
 
-**Planned Tech:** TypeScript, Node.js, File System  
+**Planned Tech:** TypeScript, Node.js, File System
 **Status:** 📋 Planned
 
 #### 4. Unit Converter
+
 Convert between different units of measurement.
 
-**Planned Tech:** TypeScript, Node.js  
+**Planned Tech:** TypeScript, Node.js
 **Status:** 📋 Planned
 
 #### 5. Personal Blog
+
 A simple blogging platform with Markdown support.
 
-**Planned Tech:** TypeScript, Express.js, Markdown  
+**Planned Tech:** TypeScript, Express.js, Markdown
 **Status:** 📋 Planned
 
 #### 6. Todo List API
+
 RESTful API for managing todos.
 
-**Planned Tech:** TypeScript, Express.js, SQLite/PostgreSQL  
+**Planned Tech:** TypeScript, Express.js, SQLite/PostgreSQL
 **Status:** 📋 Planned
 
 #### 7. Weather API Wrapper
+
 Service to fetch and aggregate weather data.
 
-**Planned Tech:** TypeScript, Express.js, External APIs  
+**Planned Tech:** TypeScript, Express.js, External APIs
 **Status:** 📋 Planned
 
 #### 8. Broadcast Server
+
 Real-time broadcast server using WebSockets.
 
-**Planned Tech:** TypeScript, WebSocket, Node.js  
+**Planned Tech:** TypeScript, WebSocket, Node.js
 **Status:** 📋 Planned
 
 #### 9. E-Commerce API
+
 Complete e-commerce backend with authentication.
 
-**Planned Tech:** TypeScript, Express.js, PostgreSQL, JWT  
+**Planned Tech:** TypeScript, Express.js, PostgreSQL, JWT
 **Status:** 📋 Planned
 
 #### 10. URL Shortening Service
+
 Service to create and manage short URLs.
 
-**Planned Tech:** TypeScript, Express.js, Redis, PostgreSQL  
+**Planned Tech:** TypeScript, Express.js, Redis, PostgreSQL
 **Status:** 📋 Planned
 
 ---
@@ -94,16 +130,19 @@ Service to create and manage short URLs.
 ## 🛠️ Tech Stack
 
 **Core Technologies:**
+
 - Node.js
 - TypeScript
 - Express.js (for API projects)
 
 **Databases:**
+
 - PostgreSQL
 - SQLite
 - Redis
 
 **Tools & Libraries:**
+
 - Zod (validation)
 - JWT (authentication)
 - WebSockets (real-time features)
@@ -112,19 +151,21 @@ Service to create and manage short URLs.
 
 ## 📂 Project Structure
 ```
+
 node-projects/
-├── 01-task-tracker-cli/          ✅ Completed
-├── 02-github-user-activity/      ✅ Completed
-├── 03-expense-tracker/           📋 Planned
-├── 04-unit-converter/            📋 Planned
-├── 05-personal-blog/             📋 Planned
-├── 06-todo-list-api/             📋 Planned
-├── 07-weather-api-wrapper/       📋 Planned
-├── 08-broadcast-server/          📋 Planned
-├── 09-ecommerce-api/             📋 Planned
-├── 10-url-shortening-service/    📋 Planned
+├── 01-task-tracker-cli/ ✅ Completed
+├── 02-github-user-activity/ ✅ Completed
+├── 03-expense-tracker/ ✅ Completed
+├── 04-unit-converter/ 📋 Planned
+├── 05-personal-blog/ 📋 Planned
+├── 06-todo-list-api/ 📋 Planned
+├── 07-weather-api-wrapper/ 📋 Planned
+├── 08-broadcast-server/ 📋 Planned
+├── 09-ecommerce-api/ 📋 Planned
+├── 10-url-shortening-service/ 📋 Planned
 └── README.md
-```
+
+````
 
 ---
 
@@ -161,26 +202,26 @@ npm run build
 
 # Run the project
 npm run dev
-```
+````
 
 ---
 
 ## 📈 Progress Tracking
 
-| # | Project | Status | Difficulty | Completion Date |
-|---|---------|--------|------------|-----------------|
-| 1 | Task Tracker CLI | ✅ Done | Beginner | Jan 2026 |
-| 2 | GitHub User Activity | ✅ Done | Beginner | Jan 2026 |
-| 3 | Expense Tracker | 📋 Planned | Beginner | - |
-| 4 | Unit Converter | 📋 Planned | Beginner | - |
-| 5 | Personal Blog | 📋 Planned | Intermediate | - |
-| 6 | Todo List API | 📋 Planned | Intermediate | - |
-| 7 | Weather API Wrapper | 📋 Planned | Intermediate | - |
-| 8 | Broadcast Server | 📋 Planned | Intermediate | - |
-| 9 | E-Commerce API | 📋 Planned | Advanced | - |
-| 10 | URL Shortening Service | 📋 Planned | Advanced | - |
+| #   | Project                | Status     | Difficulty   | Completion Date |
+| --- | ---------------------- | ---------- | ------------ | --------------- |
+| 1   | Task Tracker CLI       | ✅ Done    | Beginner     | Jan 2026        |
+| 2   | GitHub User Activity   | ✅ Done    | Beginner     | Jan 2026        |
+| 3   | Expense Tracker        | 📋 Planned | Beginner     | -               |
+| 4   | Unit Converter         | 📋 Planned | Beginner     | -               |
+| 5   | Personal Blog          | 📋 Planned | Intermediate | -               |
+| 6   | Todo List API          | 📋 Planned | Intermediate | -               |
+| 7   | Weather API Wrapper    | 📋 Planned | Intermediate | -               |
+| 8   | Broadcast Server       | 📋 Planned | Intermediate | -               |
+| 9   | E-Commerce API         | 📋 Planned | Advanced     | -               |
+| 10  | URL Shortening Service | 📋 Planned | Advanced     | -               |
 
-**Progress:** 2/10 projects completed (20%)
+**Progress:** 3/10 projects completed (30%)
 
 ---
 
@@ -197,6 +238,7 @@ npm run dev
 ## 📝 Notes
 
 **Development Philosophy:**
+
 - Build with TypeScript for type safety
 - Follow SOLID principles
 - Write clean, maintainable code
@@ -204,6 +246,7 @@ npm run dev
 - Document all features and decisions
 
 **Folder Conventions:**
+
 - Each project is self-contained
 - Consistent structure across projects
 - Comprehensive README per project
@@ -213,14 +256,18 @@ npm run dev
 
 ## 📧 Contact
 
-**Ahmed Mohamed**  
+**Ahmed Mohamed**
 Full-Stack Developer
 
 - 💼 LinkedIn: [ahmed-mohamed-developer](https://www.linkedin.com/in/ahmed-mohamed-developer/)
 - 📧 Email: a7mdmo74@gmail.com
 
-*Open to collaboration and feedback!*
+_Open to collaboration and feedback!_
 
 ---
 
-**Last Updated:** January 23, 2026
+**Last Updated:** January 25, 2026
+
+```
+
+```
