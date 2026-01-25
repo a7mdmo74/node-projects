@@ -1,4 +1,3 @@
-```md
 # Backend Projects - Node.js Implementation
 
 A collection of backend projects built with Node.js and TypeScript, following the
@@ -14,7 +13,7 @@ A collection of backend projects built with Node.js and TypeScript, following th
 
 A command-line task management application.
 
-**Tech Stack:** TypeScript, Node.js
+**Tech Stack:** TypeScript, Node.js  
 **Features:**
 
 - Add, update, delete tasks
@@ -22,8 +21,8 @@ A command-line task management application.
 - List and filter tasks
 - JSON-based persistence
 
-**Status:** ✅ Completed
-**Folder:** `01-task-tracker-cli/`
+**Status:** ✅ Completed  
+**Folder:** `01-task-tracker-cli/`  
 **Date Completed:** January 2026
 
 ---
@@ -32,7 +31,7 @@ A command-line task management application.
 
 Fetch and display GitHub user activity via API.
 
-**Tech Stack:** TypeScript, Node.js, GitHub API, Native Fetch
+**Tech Stack:** TypeScript, Node.js, GitHub API, Native Fetch  
 **Features:**
 
 - Fetch recent activity for any GitHub user
@@ -41,8 +40,8 @@ Fetch and display GitHub user activity via API.
 - Filter activities by type (push, pull request, commit)
 - Graceful error handling for invalid users and API limits
 
-**Status:** ✅ Completed
-**Folder:** `02-github-user-activity/`
+**Status:** ✅ Completed  
+**Folder:** `02-github-user-activity/`  
 **Date Completed:** January 2026
 
 ---
@@ -51,7 +50,7 @@ Fetch and display GitHub user activity via API.
 
 A command-line application to track and manage personal expenses.
 
-**Tech Stack:** TypeScript, Node.js, Commander.js, File System
+**Tech Stack:** TypeScript, Node.js, Commander.js, File System  
 **Features:**
 
 - Add, update, delete expenses
@@ -61,68 +60,61 @@ A command-line application to track and manage personal expenses.
 - JSON-based persistence
 - Input validation and error handling
 
-**Status:** ✅ Completed
-**Folder:** `03-expense-tracker/`
+**Status:** ✅ Completed  
+**Folder:** `03-expense-tracker/`  
 **Date Completed:** January 2026
 
 ---
 
 ### 🚧 Upcoming Projects
 
-#### 3. Expense Tracker
-
-Track and manage personal expenses.
-
-**Planned Tech:** TypeScript, Node.js, File System
-**Status:** 📋 Planned
-
 #### 4. Unit Converter
 
 Convert between different units of measurement.
 
-**Planned Tech:** TypeScript, Node.js
+**Planned Tech:** TypeScript, Node.js  
 **Status:** 📋 Planned
 
 #### 5. Personal Blog
 
 A simple blogging platform with Markdown support.
 
-**Planned Tech:** TypeScript, Express.js, Markdown
+**Planned Tech:** TypeScript, Express.js, Markdown  
 **Status:** 📋 Planned
 
 #### 6. Todo List API
 
 RESTful API for managing todos.
 
-**Planned Tech:** TypeScript, Express.js, SQLite/PostgreSQL
+**Planned Tech:** TypeScript, Express.js, SQLite/PostgreSQL  
 **Status:** 📋 Planned
 
 #### 7. Weather API Wrapper
 
 Service to fetch and aggregate weather data.
 
-**Planned Tech:** TypeScript, Express.js, External APIs
+**Planned Tech:** TypeScript, Express.js, External APIs  
 **Status:** 📋 Planned
 
 #### 8. Broadcast Server
 
 Real-time broadcast server using WebSockets.
 
-**Planned Tech:** TypeScript, WebSocket, Node.js
+**Planned Tech:** TypeScript, WebSocket, Node.js  
 **Status:** 📋 Planned
 
 #### 9. E-Commerce API
 
 Complete e-commerce backend with authentication.
 
-**Planned Tech:** TypeScript, Express.js, PostgreSQL, JWT
+**Planned Tech:** TypeScript, Express.js, PostgreSQL, JWT  
 **Status:** 📋 Planned
 
 #### 10. URL Shortening Service
 
 Service to create and manage short URLs.
 
-**Planned Tech:** TypeScript, Express.js, Redis, PostgreSQL
+**Planned Tech:** TypeScript, Express.js, Redis, PostgreSQL  
 **Status:** 📋 Planned
 
 ---
@@ -143,6 +135,7 @@ Service to create and manage short URLs.
 
 **Tools & Libraries:**
 
+- Commander.js (CLI tools)
 - Zod (validation)
 - JWT (authentication)
 - WebSockets (real-time features)
@@ -150,22 +143,21 @@ Service to create and manage short URLs.
 ---
 
 ## 📂 Project Structure
+
 ```
-
 node-projects/
-├── 01-task-tracker-cli/ ✅ Completed
-├── 02-github-user-activity/ ✅ Completed
-├── 03-expense-tracker/ ✅ Completed
-├── 04-unit-converter/ 📋 Planned
-├── 05-personal-blog/ 📋 Planned
-├── 06-todo-list-api/ 📋 Planned
-├── 07-weather-api-wrapper/ 📋 Planned
-├── 08-broadcast-server/ 📋 Planned
-├── 09-ecommerce-api/ 📋 Planned
-├── 10-url-shortening-service/ 📋 Planned
+├── 01-task-tracker-cli/          ✅ Completed
+├── 02-github-user-activity/      ✅ Completed
+├── 03-expense-tracker/           ✅ Completed
+├── 04-unit-converter/            📋 Planned
+├── 05-personal-blog/             📋 Planned
+├── 06-todo-list-api/             📋 Planned
+├── 07-weather-api-wrapper/       📋 Planned
+├── 08-broadcast-server/          📋 Planned
+├── 09-ecommerce-api/             📋 Planned
+├── 10-url-shortening-service/    📋 Planned
 └── README.md
-
-````
+```
 
 ---
 
@@ -186,6 +178,7 @@ Through these projects, I'm building expertise in:
 ## 🚀 Getting Started
 
 Each project has its own README with specific setup instructions. General requirements:
+
 ```bash
 # Prerequisites
 node >= 18.x
@@ -202,7 +195,7 @@ npm run build
 
 # Run the project
 npm run dev
-````
+```
 
 ---
 
@@ -212,7 +205,7 @@ npm run dev
 | --- | ---------------------- | ---------- | ------------ | --------------- |
 | 1   | Task Tracker CLI       | ✅ Done    | Beginner     | Jan 2026        |
 | 2   | GitHub User Activity   | ✅ Done    | Beginner     | Jan 2026        |
-| 3   | Expense Tracker        | 📋 Planned | Beginner     | -               |
+| 3   | Expense Tracker CLI    | ✅ Done    | Beginner     | Jan 2026        |
 | 4   | Unit Converter         | 📋 Planned | Beginner     | -               |
 | 5   | Personal Blog          | 📋 Planned | Intermediate | -               |
 | 6   | Todo List API          | 📋 Planned | Intermediate | -               |
@@ -256,10 +249,10 @@ npm run dev
 
 ## 📧 Contact
 
-**Ahmed Mohamed**
+**Ahmed Mohamed**  
 Full-Stack Developer
 
-- 💼 LinkedIn: [ahmed-mohamed-developer](https://www.linkedin.com/in/ahmed-mohamed-developer/)
+- 💼 LinkedIn: https://www.linkedin.com/in/ahmed-mohamed-developer/
 - 📧 Email: a7mdmo74@gmail.com
 
 _Open to collaboration and feedback!_
@@ -267,7 +260,3 @@ _Open to collaboration and feedback!_
 ---
 
 **Last Updated:** January 25, 2026
-
-```
-
-```
